@@ -1,3 +1,6 @@
+# My submission for the code challenge
+I went the python route. Thanks for checking it out. :)
+
 # de-hours-with-experts
 Data Engineering Hours With Experts Coding Challenge!
 
