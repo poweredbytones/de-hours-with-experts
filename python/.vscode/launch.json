@@ -10,8 +10,8 @@
             "request": "launch",
             "program": "${file}",
             "console": "integratedTerminal",
-            "pythonPath": "C:/Users/power/AppData/Local/Programs/Python/Python39/python.exe",
-            "args": ["45590051"]
+            "python": "C:/Users/power/AppData/Local/Programs/Python/Python39/python.exe",
+            "args": ["70965"]
         }
     ]
 }

@@ -25,7 +25,7 @@ def isDescending(num):
     for i in range( len(ListOfValues) - 1 ):
         if ListOfValues[i] < ListOfValues[i+1]:
             return False
-        return True
+    return True
 
 def next_biggest_positive(num):
     
@@ -49,7 +49,7 @@ def next_biggest_positive(num):
     
     ListOfValues[first_number],ListOfValues[smallest_index] = ListOfValues[smallest_index],ListOfValues[first_number]
     newlist = sorted(ListOfValues[:first_number],reverse=True) + ListOfValues[first_number:]
-    result = ''.join(reversed(newlist))
+    result = int(''.join(reversed(newlist)))
     
 
     return result
